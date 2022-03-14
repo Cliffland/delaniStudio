@@ -108,19 +108,24 @@
                 </div>
             </div>
         </section>
-        <section class="contact">
-            <h2 class="h_contact">CONTACT US</h2>           
-                <form class="row">
-                    <div class="col-md-6">
-                        <input id="input_name" placeholder="Name..." type="text">
+        <section class="contact mt-5 d-flex flex-column item-align-center justify-column">
+            <div class="container">
+                <h2 class="h_contact">CONTACT US</h2>           
+                    <form class="row">
+                        <div class="col-md-6">
+                            <input class="w-100 put mt-3 form-control" id="input_name" placeholder="Name..." type="text">
+                        </div>
+                        <div class="col-md-6">
+                            <input class="w-100 put mt-3 form-control" id="input_email" placeholder="Email..." type="text">
+                        </div>                        
+                        <div class="col-md-6 mt-4 mx-5">
+                            <textarea class="form-control put mt-3 form-control" id="input_text" placeholder="Your message here..." rows="10"></textarea>
+                        </div>                                                
+                    </form>
+                    <div class="col-md-3">
+                        <button id="submit" class="btn mt-3">Submit</button>
                     </div>
-                    <div class="col-md-6">
-                        <input id="input_email" placeholder="Email..." type="text">
-                    </div>
-                    <div class="col-md-6 ">
-                        <textarea id="input_text" placeholder="Your message here..."></textarea>
-                    </div>
-                </form>            
+            </div>                    
         </section>
 
 
