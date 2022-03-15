@@ -65,15 +65,16 @@ $(document).ready(function(){
         $('#giraffe').css('opacity',0).fadeOut();
     });
 });
+
 let submitButton = document.getElementById('submit');
 submitButton.addEventListener('click',sendEmail);
 function sendEmail(){
     let nameInput = document.getElementById('input_name').value;
     let emailInput = document.getElementById('input_email').value;
-    let messageInput = document.getElementById('message').value;
+    let messageInput = document.getElementById('input_text').value;
     if (nameInput !== '' && emailInput !== '' && messageInput !== ''){
         alert(nameInput + "Message sent successfully");
     }else {
-        alert('Please fill empty inputs');
+        alert('Please fill out empty fields');
     }
 }
