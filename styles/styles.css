@@ -44,10 +44,12 @@
     text-align: center;
 }
 .contact{
+    
     background-image: url(../assets/backgrounds/c_image.jpg);
     background-repeat: no-repeat;
     color: white;
     height: 100vh;
+    
 
 }
 #submit{
@@ -62,4 +64,21 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+}
+.design_text, .dev_text, .product_text{
+    display: none;
+}
+.what_we_do{
+    text-align: center;
+}
+
+.emailname{
+    background: transparent;
+}
+.form-control{
+    background: transparent;
+
+}
+.form-control::placeholder{
+    color: #fff;
 }
